@@ -3,7 +3,7 @@ import MyButton from './UI/button/MyButton';
 
 const PostItem = (props) => {
 
-
+    // kyky
 
     return (
         <div>
