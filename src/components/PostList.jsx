@@ -1,14 +1,14 @@
 import React from 'react';
 import PostItem from './PostItem';
 
-const PostList = ({posts, title}) => {
+const PostList = ({posts, title, remove}) => {
 
     //console.log("Props >", posts);
 
     return (
         <div style={{margin:"30px 0"}}>
             <h1 style={{textAlign:'center'}}>{title}</h1>
-            {posts.map((v, k) => <PostItem number={k+1} post={v} key={v.id} />)}  
+            {posts.map((v, k) => <PostItem remove={remove} number={k+1} post={v} key={v.id} />)}  
         </div>
     );
 }
