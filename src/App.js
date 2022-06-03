@@ -34,7 +34,6 @@ function App() {
         ? <PostList remove={removePost} posts={posts} title="Посты про так себе web" />
         : <h1 style={{textAlign:"center"}}>Посты не найдены</h1>
       }
-      <PostForm create={createPost} />
     </div>
   );
 }
