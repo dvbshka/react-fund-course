@@ -1,8 +1,8 @@
 import React, {useState, useMemo} from 'react';
+import './App.css';
 import PostForm from './components/PostForm';
 //import ClassCounter from './components/ClassCounter';
 import PostList from './components/PostList';
-import './styles/App.css'
 import PostFilter from './components/PostFilter';
 import MyModal from './components/UI/MyModal/MyModal';
 import MyButton from './components/UI/button/MyButton';

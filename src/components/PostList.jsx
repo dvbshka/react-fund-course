@@ -18,7 +18,7 @@ const PostList = ({posts, title, remove}) => {
                     <CSSTransition
                         key={v.id}
                         timeout={500}
-                        className='post'
+                        classNames="post"
                     >
                     <PostItem remove={remove} number={k+1} post={v} />
                     </CSSTransition>
